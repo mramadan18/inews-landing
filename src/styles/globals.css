@@ -102,6 +102,7 @@ img {
 .vision-message {
   background-color: var(--main-color);
   height: 200px;
+  margin-top: 75px;
   padding-right: 150px;
 }
 
@@ -163,7 +164,7 @@ img {
 
 /* Start Download */
 .download-app {
-  padding-top: 200px;
+  padding-top: 100px;
 }
 
 .download-app h2 {
@@ -219,7 +220,7 @@ img {
 /* Start Footer  */
 .footer {
   background-color: #F2F2F2;
-  margin-top: 180px;
+  margin-top: 70px;
 }
 
 .footer a {
