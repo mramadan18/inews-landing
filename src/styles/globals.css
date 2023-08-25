@@ -1,0 +1,235 @@
+/* @font-face {
+  font-family: 'Madani Arabic';
+  src: url('/fonts/alfont_com_Madani-Arabic-Regular-1.ttf') format('truetype');
+} */
+/* Cairo Font */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap');
+
+/* Start Global */
+:root {
+  --text-color-black: #292929;
+  --main-color: #012A83;
+  --second-color: #D30707;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  color: var(--text-color-black);
+}
+
+@media (min-width: 1399px) and (max-width: 1600px) {
+  .container {
+    width: 1120px !important;
+  }
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/* End Global */
+
+/* Start Navbar */
+.navbar .navbar-nav .nav-item .nav-link {
+  color:  var(--text-color-black);
+  font-weight: 600;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active {
+  color: var(--second-color);
+  border-bottom: 3px solid var(--second-color);
+}
+
+.navbar form .btn {
+  background-color: var(--main-color);
+}
+/* End Navbar */
+
+/* Start Home */
+.home {
+  background: linear-gradient(180deg, #0A2262 0%, #012A83 100%);
+}
+
+.home .bar {
+  background-color: var(--second-color);
+}
+
+.home p {
+  width: 380px;
+  line-height: 35px;
+}
+/* End Home */
+
+/* Start Features */
+.features {
+  margin-top: 230px;
+}
+
+.features h3 {
+  color: var(--main-color);
+}
+
+.features .feature-item {
+  border: 2px solid var(--main-color);
+}
+
+.features .feature-item h4 {
+  color: var(--main-color);
+}
+
+@media (max-width: 992px) {
+  .features {
+    margin-top: 60px;
+  }
+}
+/* End Features */
+
+/* Start vision-message */
+.vision-message {
+  background-color: var(--main-color);
+  height: 200px;
+  padding-right: 150px;
+}
+
+.vision-message .nav {
+  width: 50%;
+}
+
+.vision-message .nav .nav-link {
+  opacity: 0.5;
+}
+
+.vision-message .nav .nav-link.active {
+  opacity: 1;
+}
+
+.vision-message .nav .nav-link.active::after {
+  content: "";
+  position: absolute;
+  border-width: 30px;
+  border-style: solid;
+  border-color: transparent var(--main-color) transparent transparent;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -58px;
+}
+
+.vision-message .tab-content {
+  background-color: #F2F2F2;
+  height: 200px;
+  padding-left: 200px;
+  padding-right: 100px;
+}
+
+@media (max-width: 992px) {
+  .vision-message {
+    height: auto;
+    padding-right: 0;
+  }
+
+  .vision-message .nav {
+    width: auto;
+  }
+
+  .vision-message .nav .nav-link.active::after {
+    border-width: 15px;
+    border-color: var(--main-color) transparent transparent transparent;
+    top: 98%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .vision-message .tab-content {
+    background-color: #F2F2F2;
+    height: auto;
+    padding: 50px 20px 20px 10px;
+  }
+}
+/* End vision-message */
+
+/* Start Download */
+.download-app {
+  padding-top: 200px;
+}
+
+.download-app h2 {
+  color: var(--main-color);
+  line-height: 55px;
+}
+
+.download-app p {
+  line-height: 35px;
+}
+
+@media (max-width: 992px) {
+  .download-app {
+    padding-top: 60px;
+  }
+
+  .download-app h2 {
+    font-size: 1.3rem;
+    line-height: 37px;
+  }
+
+  .download-app .download-app-links {
+    justify-content: center !important;
+  }
+
+  .download-app .download-app-links img {
+    width: 120px;
+    height: 40px;
+  }
+
+  .download-app .download-app-links .ios {
+    height: 50px;
+  }
+
+  .download-app .phones-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .download-app .phones-box > div {
+    width: 180px;
+    height: 350px;
+  }
+
+  .download-app .large-phone-box {
+    position: initial !important;
+  }
+}
+/* End Download */
+
+/* Start Footer  */
+.footer {
+  background-color: #F2F2F2;
+  margin-top: 180px;
+}
+
+.footer a {
+  color: var(--text-color-black); 
+  text-decoration: none;
+}
+
+@media (max-width: 992px) {
+  .footer {
+    margin-top: 40px;
+  }
+}
+/* End Footer  */
