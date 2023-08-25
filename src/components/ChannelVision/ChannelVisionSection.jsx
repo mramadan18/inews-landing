@@ -23,7 +23,13 @@ const ChannelVisionSection = () => {
             aria-controls="v-pills-home"
             aria-selected="true"
           >
-            <Image src={vision} alt="vision-icon" className="ms-2" />
+            <Image
+              src={vision}
+              alt="vision-icon"
+              width={24}
+              height={24}
+              priority
+              className="ms-2" />
             رؤية قناة آي نيوز
           </div>
           <div
@@ -39,6 +45,9 @@ const ChannelVisionSection = () => {
             <Image
               src={message}
               alt="message-icon"
+              width={24}
+              height={24}
+              priority
               className="ms-2 text-white"
             />
             رسالة قناة آي نيوز
