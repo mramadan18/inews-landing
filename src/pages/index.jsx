@@ -4,7 +4,7 @@ import FeaturesSection from "@/components/Features/FeaturesSection";
 import ChannelVisionSection from "@/components/ChannelVision/ChannelVisionSection";
 import DownloadAppSection from "@/components/DownloadApp/DownloadAppSection";
 import Footer from "@/components/Footer";
-import Phones from "@/components/phones";
+import Phones from "@/components/Phones";
 
 const Home = () => {
   return (
