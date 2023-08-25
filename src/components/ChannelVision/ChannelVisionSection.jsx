@@ -5,7 +5,7 @@ import message from "#/icons/message.svg";
 
 const ChannelVisionSection = () => {
   return (
-    <section id="vision-message" className="vision-message mt-5">
+    <section id="vision-message" className="vision-message">
       <div className="d-block d-lg-flex align-items-center">
         <div
           className="nav flex-row flex-lg-column flex-nowrap flex-lg-wrap justify-content-center gap-3 nav-pills me-3"
