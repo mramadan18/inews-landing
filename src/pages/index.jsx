@@ -5,6 +5,7 @@ import ChannelVisionSection from "@/components/ChannelVision/ChannelVisionSectio
 import DownloadAppSection from "@/components/DownloadApp/DownloadAppSection";
 import Footer from "@/components/Footer";
 import Phones from "@/components/Phones";
+import SocialMediaIcons from "@/components/Utilities/SocialMediaIcons";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <ChannelVisionSection />
       <DownloadAppSection />
       <Footer />
+      <SocialMediaIcons />
     </>
   );
 };

@@ -12,7 +12,7 @@ const Phones = () => {
             <div
               className="d-flex justify-content-center align-items-center gap-3"
               style={{
-                height: "350px",
+                height: "320px",
               }}
             >
               <Image
@@ -20,7 +20,7 @@ const Phones = () => {
                 alt="phone-app-img"
                 priority
                 style={{
-                  width: "160px",
+                  width: "180px",
                 }}
               />
               <Image
@@ -28,7 +28,7 @@ const Phones = () => {
                 alt="phone-app-img"
                 priority
                 style={{
-                  width: "160px",
+                  width: "180px",
                 }}
               />
             </div>
