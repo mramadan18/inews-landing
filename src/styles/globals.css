@@ -260,3 +260,15 @@ img {
   transform: scale(1.3);
 }
 /* End Social Media Icons */
+
+/* Start Subscribe Modal */
+.subscribe-modal a {
+  text-decoration: none;
+}
+
+@media (max-width: 992px) {
+  .subscribe-modal > div {
+    width: 100% !important;
+  }
+}
+/* End Subscribe Modal */

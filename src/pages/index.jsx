@@ -6,8 +6,12 @@ import DownloadAppSection from "@/components/DownloadApp/DownloadAppSection";
 import Footer from "@/components/Footer";
 import Phones from "@/components/Phones";
 import SocialMediaIcons from "@/components/Utilities/SocialMediaIcons";
+import Subscribe from "@/components/Subscribe";
+import { useState } from "react";
 
 const Home = () => {
+  const [show, setShow] = useState(true);
+
   return (
     <>
       <Navbar />
@@ -18,6 +22,7 @@ const Home = () => {
       <DownloadAppSection />
       <Footer />
       <SocialMediaIcons />
+      {show && <Subscribe setShow={setShow} />}
     </>
   );
 };
