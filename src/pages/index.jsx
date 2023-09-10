@@ -6,8 +6,9 @@ import DownloadAppSection from "@/components/DownloadApp/DownloadAppSection";
 import Footer from "@/components/Footer";
 import Phones from "@/components/Phones";
 import SocialMediaIcons from "@/components/Utilities/SocialMediaIcons";
-import Subscribe from "@/components/Subscribe";
+import FollowUs from "@/components/FollowUs";
 import { useState } from "react";
+// import DownloadModal from "@/components/DownloadModal";
 
 const Home = () => {
   const [show, setShow] = useState(true);
@@ -22,7 +23,8 @@ const Home = () => {
       <DownloadAppSection />
       <Footer />
       <SocialMediaIcons />
-      {show && <Subscribe setShow={setShow} />}
+      {show && <FollowUs setShow={setShow} />}
+      {/* {show && <DownloadModal setShow={setShow} />} */}
     </>
   );
 };

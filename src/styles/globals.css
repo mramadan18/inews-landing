@@ -261,14 +261,47 @@ img {
 }
 /* End Social Media Icons */
 
-/* Start Subscribe Modal */
-.subscribe-modal a {
+/* Start Follow Us Modal */
+.modal > div {
+  width: 400px;
+}
+
+.modal > div .head {
+  background-color: var(--main-color);
+}
+
+.modal a {
   text-decoration: none;
 }
 
 @media (max-width: 992px) {
-  .subscribe-modal > div {
+  .follow-us-modal > div {
     width: 100% !important;
   }
 }
-/* End Subscribe Modal */
+/* End Follow Us Modal */
+
+/* Start Download App Modal */
+.modal .or::before,
+.modal .or::after {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 1px;
+  background-color: #C7C7C7;;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.modal .or::before {
+  left: 25px;
+}
+
+.modal .or::after {
+  right: 25px;
+}
+
+.modal .btn {
+  background-color: var(--main-color);
+}
+/* End Download App Modal */
